@@ -36,7 +36,7 @@ tasks/Task.cpp, and will be put in the using_task_library_not_picking_up_not_dir
          * \param name Name of the task. This name needs to be unique to make it identifiable via nameservices.
          * \param initial_state The initial TaskState of the TaskContext. Default is Stopped state.
          */
-        Task(std::string const& name = "using_task_library_not_picking_up_not_directly_used_dependencies_consumer::Task");
+        Task(std::string const& name = "using_task_library_not_picking_up_not_directly_used_dependencies_consumer::Task", TaskCore::TaskState initial_state = Stopped);
 
         /** Default deconstructor of Task
          */

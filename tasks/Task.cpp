@@ -6,8 +6,8 @@
 
 using namespace using_task_library_not_picking_up_not_directly_used_dependencies_consumer;
 
-Task::Task(std::string const& name)
-    : TaskBase(name)
+Task::Task(std::string const& name, TaskCore::TaskState initial_state)
+    : TaskBase(name, initial_state)
 {
 }
 
