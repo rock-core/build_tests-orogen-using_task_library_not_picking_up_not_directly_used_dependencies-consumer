@@ -1,0 +1,18 @@
+<package>
+  <description brief="Test package for using_task_library not picking up dependencies, consuming dummy task">
+  
+  </description>
+  <author>Dennis Hemker/dennis.hemker@dfki.de</author>
+  <license></license>
+  <url>http://</url>
+  <logo>http://</logo>
+  <depend package="base/cmake" />
+  <depend package="build_tests/orogen/using_task_library_not_picking_up_not_directly_used_dependencies_publisher" />
+  <!--
+   To add any dependencies use the depend tag
+  <depend package="dummy-dependency-0" />
+	...
+  <depend package="dummy-dependency-n-1" />
+  <depend package="dummy-dependency-n" />
+  -->
+</package>
